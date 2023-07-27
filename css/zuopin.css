@@ -1,0 +1,161 @@
+/* CSS Document */
+header {
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+z-index: 10;
+padding: 20px 100px;
+box-sizing: border-box;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #fff;
+overflow: hidden;
+border-bottom: double white 1px;
+/*border-radius:30px;*/
+background-color:rgba(0,0,0,0.5);
+}
+.nav-header {
+display: flex;
+flex-direction: column;
+}
+.navbar-brand {
+font-family:"宋体";
+font-size: 30px;
+font-weight: bold;
+height:30px;
+color:#FFF;
+}
+.navbar-brandE {
+font-family:"Times New Roman";
+font-size: 15px;
+font-weight:700;
+/*color:#FFF;*/
+text-align: center;
+}
+.font-special {
+font-family: 宋体, 新宋体, sans-serif;
+}
+header ul {
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header ul li {
+font-weight: 400;
+margin-left: 15px;
+transition: all .5s linear;
+padding: 5px 10px;
+border-radius: 20px;
+}
+header ul li:hover {
+background: #497271;
+color: #2b1055;
+}
+header ul li.active {
+background:#497271;
+color: #2b1055;
+}
+a:link,a:visited{
+color:#FFF;
+text-decoration:none;
+}
+
+
+/*滚动视差*/
+section {
+height: 100vh;
+color: #fff;
+font-size: 20vh;
+}
+.g-word{
+color:#fff;
+line-height: 100vh;
+text-align: center;
+}
+.g-word2{
+background-color: #497271;
+height:800px;
+}
+.g-word2-1{
+height:580px;
+}
+.g-word2-1 h2{
+font-size:36px;
+text-align: center;
+margin-top:45px;
+}
+.g-word2 h2{
+font-size:36px;
+text-align: center;
+margin-top:45px;
+}
+.introduce{
+font-size:24px;
+margin:40px 60px;
+}
+.g-img1 {
+background-image:url("../材料/材料/方志敏纪念馆/08f790529822720e8bf77ad370cb0a46f21fabda.webp");
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+line-height: 100vh;
+text-align: center;
+}
+.g-img2 {
+background-image:url("../images/8张明信片/1.JPEG");
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+line-height: 100vh;
+text-align: center;
+}
+.g-img3 {
+background-image:url("../images/8张明信片/4.JPEG");
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+line-height: 100vh;
+text-align: center;
+}
+.g-img4 {
+background-image:url("../images/8张明信片/6.jpg");
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+line-height: 100vh;
+text-align: center;
+}
+
+/*footer*/
+footer{
+background-color: rgb(43, 54, 54);
+display: flex;
+justify-content: space-around;
+}
+.introduceL{
+margin-top: 5vh;
+margin-bottom: 3vh;
+margin-left:-16vw;
+}
+.introduceR{
+margin-top: 5vh;
+margin-bottom: 5vh;
+margin-right:2vh;
+text-decoration:none;
+}
+.introduceL p{
+color:white;
+}
+.introduceR a{
+color:white;
+}
+.introduceR a:link,introduceR a:visited{
+color:#FFF;
+text-decoration:none;
+	}
+.introduceR a:hover{
+color:#497271;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+<title>鹤语袅袅</title>
+</head>
+
+<body class="bg">
+	
+	<img src="images/head.png" alt="yishuzi">
+
+	<ul class="box">
+
+<li>
+<img src="images/8张明信片/2.jpg" alt="">
+<div class="text">红色精神</div>
+</li>
+<li>
+<img src="images/8张明信片/5.jpg" alt="">
+<div class="text">红色故事</div>
+</li>
+<li>
+<img src="images/8张明信片/4.JPEG" alt="">
+<div class="text">红色人物</div>
+</li>
+<li>
+<img src="images/8张明信片/1.JPEG" alt="">
+<div class="text">红色作品</div>
+</li>
+<li>
+<img src="images/文创产品/1.png" alt="">
+<div class="text">红色文创</div>
+</li>
+</ul>
+
+	
+<section class="">
+<br><br>
+<h2 align="center">关于我们</h2>
+<p class="introduce" align="center">&emsp;&emsp;江西为什么这样红？<br>这片土地上承载着太多的红色记忆，这块山水中凝结着太深的红色文化。<br>江西革命烈士多，开国将军多，革命旧址多，可谓县县有红色故事，处处有红色景区，在中国共产党的革命历史与精神谱系中占据特殊的重要地位。<br>为了更好地继承发扬中华民族的优秀红色文化及其宝贵精神财富，<br>华东交通大学外国语学院“鹤语袅袅 数融红赣创青春”项目组开展江西红色文化国际传播效能的调查研究与创新实践。<br>
+&emsp;&emsp;Why is Jiangxi so red? <br>The land carries both so many red memories and so deep red culture.<br>Jiangxi has a lot of revolutionary martyrs, founding generals and revolutionary sites, so there are red stories in red scenic spots everywhere.<br> Jiangxi Red Culture occupies a special and important position in the revolutionary history and spiritual genealogy of the Communist Party of China.<br> The project team of "Mr & Mrs Crane Sing:Empowering the Internationalization of Jiangxi Red Culture with Digital Technology " from School of Foreign Languages of East China Jiaotong University conducted an investigative research and innovative practice on the international communication effectiveness of Jiangxi Red Culture.<br> It is of great significance to better inherit and carry forward the excellent red culture of the Chinese nation and its precious spiritual wealth.<br><br><br><br><br><br>
+</p>
+</section>
+	
+<h2>LOGO</h2>
+<img aria-atomic="true" src="images/logo2.jpg" alt="1" >
+<p class="introduce">地址：中国江西省南昌市华东交通大学外国语学院<br>
+邮编：330013<br>
+电话：0791-87046375<br>
+网址：https://www.heyuniaoniao.com<br><br>
+</p>
+	
+	
+<h2>二维码</h2>
+<img src="images/wxcode.png" alt="2">
+<p class="introduce">ADD.：School of Foreign Languages, East China Jiaotong University, Nanchang, Jiangxi, China<br>
+P.C. ：330013<br>
+Tel. ：0791-87046375<br>
+URL:  https://www.heyuniaoniao.com<br><br>
+</p>
+
+
+
+
+    <script>
+        const spans = document.querySelectorAll('.box span');
+        spans.forEach(span => {
+            span.addEventListener('click', function(e) {
+                let posX = e.pageX - e.target.offsetLeft;
+                let posY = e.pageY - e.target.offsetTop;
+                const i = document.createElement('i');
+                i.style.left = posX + 'px';
+                i.style.top = posY + 'px';
+                this.appendChild(i);
+                setTimeout(() => {
+                    this.removeChild(i);
+                }, 2000)
+
+            })
+        })
+    </script>
+	
+<div class="start">
+<a href="first.html">visit<span class="mask"></span></a>
+</div>
+	
+</body>
+</html>
+
